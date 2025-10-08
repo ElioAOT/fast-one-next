@@ -13,7 +13,7 @@
     "start:qa": "cp .env.qa .env.local && next start",
     "build:prod": "cp .env.production .env.local && next build",
     "start:prod": "cp .env.production .env.local && next start",
-    "lint": "next lint",
+    "lint": "eslint src --ext js,jsx,ts,tsx",
     "test": "jest",
     "test:watch": "jest --watch",
     "format": "prettier --write .",
