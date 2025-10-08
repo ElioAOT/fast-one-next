@@ -19,10 +19,8 @@ export default [
 
   {
     files: ["**/*.{js,jsx,ts,tsx}"],
-    ignores: ["node_modules/**", ".next/**", "out/**", "build/**", 
-      "public/**"],
+    ignores: ["node_modules/**", ".next/**", "out/**", "build/**", "public/**"],
     rules: {
-      "no-unused-vars": "error",
       "@typescript-eslint/no-unused-vars": [
         "error",
         { argsIgnorePattern: "^_" },
