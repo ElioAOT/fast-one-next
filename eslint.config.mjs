@@ -22,6 +22,7 @@ export default [
     ignores: ["node_modules/**", ".next/**", "out/**", "build/**", 
       "public/**"],
     rules: {
+      "no-unused-vars": "error",
       "@typescript-eslint/no-unused-vars": [
         "warn",
         { argsIgnorePattern: "^_" },
