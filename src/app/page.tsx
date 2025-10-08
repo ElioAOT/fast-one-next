@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 export default function Home() {
   const env = process.env.NEXT_PUBLIC_ENV;
